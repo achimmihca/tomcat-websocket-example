@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--suppress ALL -->
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>
+            index.jsp
+        </welcome-file>
+    </welcome-file-list>
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <el-ignored>false</el-ignored>
+            <scripting-invalid>false</scripting-invalid>
+            <is-xml>false</is-xml>
+            <include-prelude>/WEB-INF/jspf/prelude.jspf</include-prelude>
+            <include-coda>/WEB-INF/jspf/coda.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+</web-app>
